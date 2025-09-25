@@ -18,3 +18,20 @@ Input:
 
 Output:
 - Histogram plots of resampled means with 95% confidence intervals.
+
+
+Simple Linear Regression for Housing Price Predictions
+-------------------------------------------------------------
+
+File: real_estate_pricing.ipynb
+
+This notebook demonstrates the application of a simple linear regression model to predict housing prices.
+It includes preprocessing steps, such as feature and label transformations, to better capture extreme price
+values and enhance model performance. The notebook evaluates the model using R² and visualizes predictions
+versus actual prices.
+
+Input:
+- Housing dataset in text format (sourced from Kaggle).
+
+Output:
+- Performance metrics and visualizations.
