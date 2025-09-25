@@ -35,3 +35,21 @@ Input:
 
 Output:
 - Performance metrics and visualizations.
+
+
+Predicting Temperature using an LSTM Model
+-------------------------------------------------------------
+
+File: lstm.ipynb
+
+This notebook demonstrates the application of a Long Short-Term Memory (LSTM) model to predict tomorrow’s 
+temperature based on historical weather data. It includes preprocessing steps such as handling missing values,
+scaling features, and removing erroneous data. The model is trained with a Mean Squared Error (MSE) loss function,
+and performance is reported using both MSE and Mean Absolute Error (MAE). Early stopping with a validation set 
+is employed to prevent overfitting. Predicted temperatures are visualized against actual values to highlight model
+accuracy and lag effects.
+
+Input:
+- Weather dataset in text format (sourced from Kaggle).
+Output:
+- Performance metrics and visualizations comparing predicted vs. actual temperatures.
