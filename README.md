@@ -51,5 +51,6 @@ accuracy and lag effects.
 
 Input:
 - Weather dataset in text format (sourced from Kaggle).
+
 Output:
 - Performance metrics and visualizations comparing predicted vs. actual temperatures.
